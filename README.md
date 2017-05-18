@@ -10,13 +10,20 @@ The corpus is available as individual text files or a single json file. Text fil
 
 ```DONALD TRUMP: I would have a very, very good relationship with Putin ...```
 
-Paragraph breaks usually follow the original and we keep them more for legibility than meaning.
+Paragraph breaks usually follow the original and we keep them more for legibility than meaning. Transcription notes, such as `(INAUDIBLE)` or `(CHANTS)`, are uppercase, parenthesized. 
 
 ## Metadata
 
 The metadata, what little there is, should be self largely self-explanatory. 
 
-
 | Name | Value | In text filename? | 
 | --- | --- | --- |
-| date_published | Date and time (EDT) event or interview made public. For tweets this is precise. For written statements, only the day is known. Other genres fall in between | Yes
+| date_published | Date and time (EDT) event or interview made public. For tweets this is precise. For written statements, only the day is known. Other genres fall in between | Yes |
+| date_created | Usually null. Present and, in a few cases, filled-in to account for pre-recorded interviews | No |
+| genre | debate, interview, press conference, speech, statement, or town hall | Yes |
+| people | List of people in document with role of speaker, interviewer, moderator, quoted (e.g., in video clip) and number of sections (speaking turns) | Yes, up to 100 chars |
+| event | Used mostly for speaking occasions (e.g., Rally, NRA conference) | Yes |
+| title | Used exclusively for written communications that include title | Yes |
+| is_as_spoken | Boolean. False for written statements and speech scripts. In some cases we have both transcript and prepared script, in which case they appear separately but with otherwise similar metadata | Yes |
+| completeness | complete, almost complete, partial, or missing. Missing is used primarily for speeches, where there's a schedule to go off of | Yes, when not 'missing' |
+
