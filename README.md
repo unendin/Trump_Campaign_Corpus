@@ -30,7 +30,7 @@ The metadata, what little there is, should be largely self-explanatory.
 | publisher | show and network or newspaper. Used primarily for interviews | Yes |
 | is_public_domain | Almost always null. See copyright info below | No |
 | text_filename | Recorded in json for cross-referencing | No |
-| doc | Array of speaking turns, each containing person and array of paragraphs consistent of text or transcription notes with with | No |
+| doc | The actual text, structured as an array of speaking turns, each containing name of person and array of paragraphs. Paragraph consists of text or trancription notes | No |
 
 ## Sources and copyright
 
