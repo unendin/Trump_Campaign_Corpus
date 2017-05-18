@@ -10,7 +10,7 @@ The corpus is available as individual text files or a single json file. Text fil
 
 ```DONALD TRUMP: I would have a very, very good relationship with Putin ...```
 
-Paragraph breaks usually follow the original and we retain them more for legibility than meaning. Transcription notes, such as `(CHANTING)` or `(INAUDIBLE)`, appear uppercase, parenthesized. 
+Paragraph breaks usually follow the original and we retain them more for legibility than meaning. Transcription notes, such as `(CHANTING)` or `(INAUDIBLE)`, appear uppercase, in parentheses. 
 
 ## Metadata and document structure
 
