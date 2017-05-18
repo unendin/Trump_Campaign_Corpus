@@ -12,9 +12,9 @@ The corpus is available as individual text files or a single json file. Text fil
 
 Paragraph breaks usually follow the original and we keep them more for legibility than meaning. Transcription notes, such as `(INAUDIBLE)` or `(CHANTS)`, are uppercase, parenthesized. 
 
-## Metadata
+## Metadata and document structure
 
-The metadata, what little there is, should be self largely self-explanatory. 
+The metadata and documnnet, what little there is, should be self largely self-explanatory. 
 
 | Name | Value | In text filename? | 
 | --- | --- | --- |
@@ -26,5 +26,10 @@ The metadata, what little there is, should be self largely self-explanatory.
 | title | Used exclusively for written communications that include title | Yes |
 | is_as_spoken | Boolean. False for written statements and speech scripts. In some cases we have both transcript and prepared script, in which case they appear separately but with otherwise similar metadata | Yes |
 | completeness | complete, almost complete, partial, or missing. Missing is used primarily for speeches, where there's a schedule to go off of | Yes, when not 'missing' |
-| locaton | venue, city, state, and country. Used primarily for speeches. Refers to Trump's location when used for remote inteviews | city, state, country (when not US) |
+| location | venue, city, state, and country. Used primarily for speeches. Refers to Trump's location when used for remote inteviews | city, state, country (when not US) |
+| publisher | show and network or newspaper. Used primarily for interviews | Yes |
+| is_public_domain | Almost always null. See copyright info below | No |
+| text_filename | Recorded in json for cross-referencing | No |
+| doc | Array of speaking turns, each containing person and array of paragraphs consistent of text or transcription notes with with | No |
+
 
