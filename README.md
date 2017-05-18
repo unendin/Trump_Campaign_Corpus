@@ -2,19 +2,19 @@
 
 The Trump Campaign Corpus consists of Donald Trump's speeches, interviews, debates, town halls, press conferences, written statements (and soon tweets). It covers the period from the announcement of his candidacy on June 16, 2015 through Election Day, November 8, 2016. So far, we've gathered all or part of over 1k communications, representing nearly 3m Trump words as well as 1m words from interviewers and debate opponents. All transcript are human-made, though style and quality varies.
 
-The corpus is intended to support text analytics and criticism, with a focus on temporal patterns. It is under active development so your input, especially new or improved transcripts, is appreciated.
+The corpus is intended to support text analytics and criticism, with a focus on temporal patterns. It is under active development, so your input, especially new or improved transcripts, is appreciated.
 
 ## Formats
 
-The corpus is available as individual text files or a single json file. Text files are named date-first (see more info in Metadata section below). Speakers are identified consistently by full name, uppercase: 
+The corpus is available as individual text files or a single json file. Text files are named date-first (see more info in Metadata section below). Speakers are identified consistently by full name, uppercase, for example: 
 
 ```DONALD TRUMP: I would have a very, very good relationship with Putin ...```
 
-Paragraph breaks usually follow the original and we retain them more for legibility than meaning. Transcription notes, such as `(INAUDIBLE)` or `(CHANTS)`, are uppercase, parenthesized. 
+Paragraph breaks usually follow the original and we retain them more for legibility than meaning. Transcription notes, such as `(CHANTING)` or `(INAUDIBLE)`, appear uppercase, parenthesized. 
 
 ## Metadata and document structure
 
-The metadata and documnnet, what little there is, should be self largely self-explanatory. 
+The metadata, what little there is, should be largely self-explanatory. 
 
 | Name | Value | In text filename? | 
 | --- | --- | --- |
