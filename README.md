@@ -6,11 +6,17 @@ The corpus is intended to support text analytics and criticism, with a focus on 
 
 ## Formats
 
-The corpus is available as individual text files or a single json file. Text files are named date-first (see more info in Metadata section below). Speakers are identified consistently by full name, uppercase, e.g., 
+The corpus is available as individual text files or a single json file. Text files are named date-first (see more info in Metadata section below). Speakers are identified consistently by full name, uppercase, like this: 
 
 ```DONALD TRUMP: I would have a very, very good relationship with Putin ...```
 
+Paragraph breaks usually follow the original and we keep them more for legibility than meaning.
+
 ## Metadata
 
-The metadata, what little there is, should be self largely self-explanatory.
+The metadata, what little there is, should be self largely self-explanatory. 
 
+
+| Name | Value | In text filename? | 
+| --- | --- | --- |
+| date_published | Date and time (EDT) event or interview made public. For tweets this is precise. For written statements, only the day is known. Other genres fall in between | Yes
