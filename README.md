@@ -26,4 +26,5 @@ The metadata, what little there is, should be self largely self-explanatory.
 | title | Used exclusively for written communications that include title | Yes |
 | is_as_spoken | Boolean. False for written statements and speech scripts. In some cases we have both transcript and prepared script, in which case they appear separately but with otherwise similar metadata | Yes |
 | completeness | complete, almost complete, partial, or missing. Missing is used primarily for speeches, where there's a schedule to go off of | Yes, when not 'missing' |
+| locaton | venue, city, state, and country. Used primarily for speeches. Refers to Trump's location when used for remote inteviews | city, state, country (when not US) |
 
