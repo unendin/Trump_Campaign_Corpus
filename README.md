@@ -32,4 +32,8 @@ The metadata and documnnet, what little there is, should be self largely self-ex
 | text_filename | Recorded in json for cross-referencing | No |
 | doc | Array of speaking turns, each containing person and array of paragraphs consistent of text or transcription notes with with | No |
 
+## Sources and copyright
 
+The vast majority of transcripts come from media sites, particularly CNN and Fox. Statements and prepared speeches are from donaldjtrump.com or its Internet Archive versions. The rest we've scoured from the likes of the WikiLeaks DNC email archive (ironically) and whatthefolly.com. Finally, in a handful of cases — the three Bannon interviews, Rochester rally, etc. — we've created the transcripts. 
+
+In sum, this is copyrighted material and with no specially permitted use. Please use it solely for public-interested research. Hooray!  
