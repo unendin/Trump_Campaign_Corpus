@@ -18,8 +18,8 @@ The metadata, what little there is, should be largely self-explanatory.
 
 | Name | Value | In text filename? | 
 | :--- | :--- | :--- |
-| date_published | Date and time (EDT) the communication became public. For tweets this is precise. For written statements, only the day is known. Other genres fall in between | Yes |
-| date_created | Usually null. Present and, in a few cases, filled-in to account for pre-recorded interviews | No |
+| date_published | Date and time (EDT) the communication became public. For tweets this is precise. For written statements, only the day is known. Other genres fall in between. | Yes |
+| date_created | Usually null. Present and, in a few cases, filled-in to account for pre-recorded interviews. | No |
 | genre | debate, interview, press conference, speech, statement, or town hall | Yes |
 | people | List of people in document: their name, role (speaker, interviewer, moderator, quoted), and number of speaking turns | names, up to 100 chars |
 | event | Used mostly for speaking occasions (e.g., Rally, NRA conference) | Yes |
