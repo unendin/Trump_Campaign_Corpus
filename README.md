@@ -6,7 +6,7 @@ The corpus is intended to support text analytics and criticism, with a focus on 
 
 ## Formats
 
-The corpus is available as individual text files or a single json file. Text files are named date-first (see more info in Metadata section below). Speakers are identified consistently by full name, uppercase, for example: 
+The corpus is available as a single json file or individual text files, except tweets, which are only in the json. Text files are named date-first (see more info in Metadata section below). Speakers are identified consistently by full name, uppercase, for example: 
 
 ```DONALD TRUMP: I would have a very, very good relationship with Putin ...```
 
