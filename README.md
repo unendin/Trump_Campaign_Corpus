@@ -24,13 +24,13 @@ The metadata, what little there is, should be largely self-explanatory.
 | people | List of people in document: their name, role (speaker, interviewer, moderator, quoted), and number of speaking turns | names, up to 100 chars |
 | event | Used mostly for speaking occasions (e.g., Rally, NRA conference) | Yes |
 | title | Used exclusively for written communications that include title | Yes |
-| is_as_spoken | Boolean. False for written statements and speech scripts. In some cases we have both transcript and prepared script, in which case they appear separately but with otherwise similar metadata | Yes |
-| completeness | complete, almost complete, partial, or missing. Missing is used primarily for speeches, where there's a schedule to go off of | Yes, when not 'missing' |
-| location | venue, city, state, and country. Used primarily for speeches. Refers to Trump's location when used for remote inteviews | city, state, country (when not US) |
-| publisher | show and network or newspaper. Used primarily for interviews | Yes |
-| is_public_domain | Almost always null. See copyright info below | No |
+| is_as_spoken | Boolean. False for written statements and speech scripts. In some cases, we have both transcript and prepared script, in which case they appear separately but with otherwise similar metadata. | Yes |
+| completeness | complete, almost complete, partial, or missing. Missing is used primarily for speeches, where there's a schedule to go off of. | Yes, when not 'missing' |
+| location | venue, city, state, and country. Used primarily for speeches. Refers to Trump's location in the case of remote inteviews. | city, state, country (when not US) |
+| publisher | show and network or newspaper. Used primarily for interviews. | Yes |
+| is_public_domain | Almost always null. See copyright info below. | No |
 | text_filename | Recorded in json for cross-referencing | By definition |
-| doc | The actual text, structured as an array of speaking turns, each containing name of person and array of paragraphs. Paragraph consists of text or trancription notes | No |
+| doc | The actual text, structured as an array of speaking turns, each containing name of person and array of paragraphs. Paragraph consists of text or trancription notes. | No |
 
 ## Sources and copyright
 
