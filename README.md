@@ -17,7 +17,7 @@ Paragraph breaks usually follow the original and we retain them more for legibil
 The metadata, what little there is, should be largely self-explanatory. 
 
 | Name | Value | In text filename? | 
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | date_published | Date and time (EDT) event or interview made public. For tweets this is precise. For written statements, only the day is known. Other genres fall in between | Yes |
 | date_created | Usually null. Present and, in a few cases, filled-in to account for pre-recorded interviews | No |
 | genre | debate, interview, press conference, speech, statement, or town hall | Yes |
@@ -29,7 +29,7 @@ The metadata, what little there is, should be largely self-explanatory.
 | location | venue, city, state, and country. Used primarily for speeches. Refers to Trump's location when used for remote inteviews | city, state, country (when not US) |
 | publisher | show and network or newspaper. Used primarily for interviews | Yes |
 | is_public_domain | Almost always null. See copyright info below | No |
-| text_filename | Recorded in json for cross-referencing | No |
+| text_filename | Recorded in json for cross-referencing | By definition |
 | doc | The actual text, structured as an array of speaking turns, each containing name of person and array of paragraphs. Paragraph consists of text or trancription notes | No |
 
 ## Sources and copyright
