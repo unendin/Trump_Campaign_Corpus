@@ -21,7 +21,7 @@ The metadata, what little there is, should be largely self-explanatory.
 | date_published | Date and time (EDT) event or interview made public. For tweets this is precise. For written statements, only the day is known. Other genres fall in between | Yes |
 | date_created | Usually null. Present and, in a few cases, filled-in to account for pre-recorded interviews | No |
 | genre | debate, interview, press conference, speech, statement, or town hall | Yes |
-| people | List of people in document with role of speaker, interviewer, moderator, quoted (e.g., in video clip) and number of sections (speaking turns) | Yes, up to 100 chars |
+| people | List of people in document: their name, role (speaker, interviewer, moderator, quoted), and number of speaking turns | names, up to 100 chars |
 | event | Used mostly for speaking occasions (e.g., Rally, NRA conference) | Yes |
 | title | Used exclusively for written communications that include title | Yes |
 | is_as_spoken | Boolean. False for written statements and speech scripts. In some cases we have both transcript and prepared script, in which case they appear separately but with otherwise similar metadata | Yes |
