@@ -1,12 +1,12 @@
 # Trump Campaign Corpus
 
-The Trump Campaign Corpus consists of Donald Trump's speeches, interviews, debates, town halls, press conferences, written statements (and soon tweets). It covers the period from the announcement of his candidacy on June 16, 2015 through Election Day, November 8, 2016. So far, we've gathered all or part of over 1k communications, representing nearly 3m Trump words as well as 1m words from interviewers and debate opponents. All transcript are human-made, though style and quality varies.
+The Trump Campaign Corpus consists of Donald Trump's speeches, interviews, debates, town halls, press conferences, written statements and tweets. It covers the period from the announcement of his candidacy on June 16, 2015 through Election Day, November 8, 2016. So far, we've gathered all or part of over 1k communications on top of 4.4k tweets. Together, they represent nearly 3m Trump words as well as 1m words from interviewers and debate opponents. All transcript are human-made, though style and quality varies.
 
 The corpus is intended to support text analytics and criticism, with a focus on temporal patterns. It is under active development, so your input, especially new or improved transcripts, is appreciated.
 
 ## Formats
 
-The corpus is available as individual text files or a single json file. Text files are named date-first (see more info in Metadata section below). Speakers are identified consistently by full name, uppercase, for example: 
+The corpus is available as a single json file or individual text files, except tweets, which are only in the json. Text files are named date-first (see more info in Metadata section below). Speakers are identified consistently by full name, uppercase, for example: 
 
 ```DONALD TRUMP: I would have a very, very good relationship with Putin ...```
 
@@ -31,9 +31,11 @@ The metadata, what little there is, should be largely self-explanatory.
 | is_public_domain | Almost always null. See copyright info below. | No |
 | text_filename | Recorded in json for cross-referencing | By definition |
 | doc | The actual text, structured as an array of speaking turns, each containing name of person and array of paragraphs. Paragraph consists of text or trancription notes. | No |
+| doc_orig | Currently used only for original text of tweets which we sanitize relatively aggressively as docs, removing symbols and links, expanding abbreviations and entities. | No |
+| twitter_source | Twitter Web Client, Twitter for Android, Twitter for Blackberry, Twitter for iPad, or Twitter for iPhone (other devices are filtered out) | Yes |
 
 ## Sources and copyright
 
 The vast majority of transcripts come from media sites, particularly CNN and Fox. Statements and prepared speeches are from donaldjtrump.com or its Internet Archive versions. The rest we've scoured from the likes of the WikiLeaks DNC email archive (ironically) and whatthefolly.com. Finally, in a handful of cases — the three Bannon interviews, Rochester rally, etc. — we've created the transcripts. 
 
-In sum, this is copyrighted material with no specially permitted use. Please use it solely for research in the public interest. Hooray!  
+Therefore most of the material is copyrighted, with no specially permitted use beyond Fair Use. Please employ it solely for research in the public interest. Hooray!  
