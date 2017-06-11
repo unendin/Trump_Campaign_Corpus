@@ -36,6 +36,6 @@ The metadata, what little there is, should be largely self-explanatory.
 
 ## Sources and copyright
 
-The vast majority of transcripts come from media sites, particularly CNN and Fox. Statements and prepared speeches are from donaldjtrump.com or its Internet Archive versions. The rest we've scoured from the likes of the WikiLeaks DNC email archive (ironically) and whatthefolly.com. Finally, in a handful of cases — the three Bannon interviews, Rochester rally, etc. — we've created the transcripts. 
+The vast majority of transcripts come from media sites, particularly CNN and Fox. Statements and prepared speeches are from donaldjtrump.com or its Internet Archive versions. The rest we've scoured from the likes of the WikiLeaks DNC email archive (ironically) and whatthefolly.com. Finally, in a handful of cases — three Breitbart interviews, Alex Jones interview, Rochester and Houston rallies, etc. — we've created the transcripts. 
 
-Therefore most of the material is copyrighted, with no specially permitted use beyond Fair Use. Please employ it solely for research in the public interest. Hooray!  
+In sum, most of the material is copyrighted, with no specially permitted use beyond Fair Use. Please employ it solely for research in the public interest. Hooray!  
